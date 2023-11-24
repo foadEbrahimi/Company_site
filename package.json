@@ -1,6 +1,6 @@
 {
   "scripts": {
-    
+    "watch": "npx tailwindcss -i ./src/assets/style/inputTailwind.css -o ./src/disc/main.css --watch"
   },
   "dependencies": {
     "tailwindcss": "^3.3.5"
