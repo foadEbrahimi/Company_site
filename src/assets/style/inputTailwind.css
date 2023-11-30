@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: PoppinsBlack;
+  src: url("../assets/font/Poppins-Black.ttf");
+  font-weight: 900;
+  font-style: normal;
+}
