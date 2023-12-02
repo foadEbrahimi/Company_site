@@ -9,8 +9,12 @@ module.exports = {
           900: "#00a9ff",
         },
       },
+      height: {
+        fitContent: "fit-content",
+      },
       fontFamily: {
         PoppinsBlack: ["PoppinsBlack"],
+        NunitoRegular: ["NunitoRegular"],
       },
     },
   },
