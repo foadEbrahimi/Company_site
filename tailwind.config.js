@@ -9,6 +9,9 @@ module.exports = {
           900: "#00a9ff",
         },
       },
+      maxHeight: {
+        "26rem": "27rem",
+      },
       height: {
         fitContent: "fit-content",
       },
