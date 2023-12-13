@@ -14,3 +14,6 @@
   font-weight: 400;
   font-style: normal;
 }
+.Cards::-webkit-scrollbar {
+  display: none;
+}

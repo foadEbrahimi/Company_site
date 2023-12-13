@@ -3,17 +3,23 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
     <link rel="stylesheet" href="./src/disc/main.css" />
     <title>Company Site</title>
   </head>
   <body>
     <div class="container mx-auto p-4">
       <div class="OurPortfilo flex flex-col gap-y-5">
-        <h1 class="text-2xl font-PoppinsBlack text-Primary-900">
-          Our Portfilo
-        </h1>
+        <div class="Title xl:px-20 2xl:px-36">
+          <h1 class="text-2xl font-PoppinsBlack text-Primary-900">
+            Our Portfilo
+          </h1>
+        </div>
         <div
-          class="Posts flex flex-col mx-auto md:grid md:grid-cols-2 gap-6 justify-center items-center"
+          class="Posts flex flex-col mx-auto md:grid md:grid-cols-2 gap-6 items-center"
         >
           <div
             class="Post flex flex-col shadow-sm rounded-md shadow-gray-500 xl:max-w-lg 2xl:max-w-xl"
@@ -85,7 +91,202 @@
           </div>
         </div>
       </div>
+      <div class="Testimonials xl:px-20 2xl:px-36 mt-10">
+        <div class="Title space-y-2">
+          <div class="flex items-center justify-between">
+            <h1 class="text-Primary-900 text-2xl font-PoppinsBlack">
+              Testimonials
+            </h1>
+            <div class="ButtonSlider flex gap-x-3">
+              <div
+                class="btn-slider-next cursor-pointer rounded-full border border-black p-4 hover:border-transparent hover:bg-Primary-100 transition-all"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="18"
+                  height="18"
+                  fill="currentColor"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"
+                  />
+                </svg>
+              </div>
+              <div
+                class="btn-slider-prev cursor-pointer rounded-full border border-black p-4 hover:border-transparent hover:bg-Primary-100 transition-all"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="18"
+                  height="18"
+                  fill="currentColor"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+          <h1 class="text-xl 2xl:text-2xl font-NunitoRegular">
+            See What Our Customer Say About Us
+          </h1>
+        </div>
+        <div class="Cards swiper p-3 flex gap-x-5 overflow-x-scroll">
+          <div class="swiper-wrapper">
+            <div
+              class="Card swiper-slide shadow-md p-5 gap-y-5 flex flex-col basis-11/12 shrink-0 grow-0 rounded-lg cursor-grab h-fit max-w-md"
+            >
+              <h1>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum
+                quasi quas eos accusamus ut quibusdam non ad, beatae nisi sint.
+              </h1>
+              <div class="Information flex gap-x-4">
+                <div
+                  class="bg-blue-300 flex self-center rounded-full p-2 overflow-hidden"
+                >
+                  <img
+                    src="./src/assets/images/Avatar/avatar.png"
+                    class="scale-150"
+                    alt=""
+                  />
+                </div>
+                <div>
+                  <h1 class="font-PoppinsBlack italic text-xl">Emily Stones</h1>
+                  <h3>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Sunt, repudiandae.
+                  </h3>
+                </div>
+              </div>
+            </div>
+            <div
+              class="Card swiper-slide shadow-md p-5 gap-y-5 flex flex-col basis-11/12 shrink-0 grow-0 h-fit rounded-lg cursor-grab max-w-md"
+            >
+              <h1>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum
+                quasi quas eos accusamus ut quibusdam non ad, beatae nisi sint.
+              </h1>
+              <div class="Information flex gap-x-4">
+                <div
+                  class="bg-blue-300 flex self-center rounded-full p-2 overflow-hidden"
+                >
+                  <img
+                    src="./src/assets/images/Avatar/avatar.png"
+                    class="scale-150"
+                    alt=""
+                  />
+                </div>
+                <div class="">
+                  <h1 class="font-PoppinsBlack italic text-xl">Emily Stones</h1>
+                  <h3>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Sunt, repudiandae.
+                  </h3>
+                </div>
+              </div>
+            </div>
+            <div
+              class="Card swiper-slide shadow-md p-5 gap-y-5 flex flex-col basis-11/12 shrink-0 grow-0 h-fit rounded-lg cursor-grab max-w-md"
+            >
+              <h1>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum
+                quasi quas eos accusamus ut quibusdam non ad, beatae nisi sint.
+              </h1>
+              <div class="Information flex gap-x-4">
+                <div
+                  class="bg-blue-300 flex self-center rounded-full p-2 overflow-hidden"
+                >
+                  <img
+                    src="./src/assets/images/Avatar/avatar.png"
+                    class="scale-150"
+                    alt=""
+                  />
+                </div>
+                <div>
+                  <h1 class="font-PoppinsBlack italic text-xl">Emily Stones</h1>
+                  <h3>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Sunt, repudiandae.
+                  </h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
+    <div class="footer">
+      <div class="text-center space-y-4">
+        <h1
+          class="font-PoppinsBlack uppercase text-Primary-900 text-2xl text-center mt-10"
+        >
+          subscribe
+        </h1>
+        <h1 class="font-NunitoRegular capitalize text-xl 2xl:text-2xl">
+          Subscribe to get the lastest news about us
+        </h1>
+        <div
+          class="input flex justify-between items-center mx-auto gap-x-3 p-2 border border-black rounded-2xl max-w-xl"
+        >
+          <input
+            type="email"
+            placeholder="Enter Your email address"
+            class="w-full rounded-lg ps-3 outline-none"
+          />
+          <a href="#" class="bg-orange-600 text-white p-3 px-4 rounded-2xl"
+            >Subscribe</a
+          >
+        </div>
+      </div>
+      <div class="bg-blue-500 mt-20">
+        <div class="p-10 grid gap-y-10 md:grid-cols-3">
+          <div class="space-y-2">
+            <h1 class="text-2xl font-PoppinsBlack">Web Logo</h1>
+            <h1>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Reiciendis possimus odio omnis veritatis nesciunt esse dignissimos
+              iusto nam reprehenderit ex?
+            </h1>
+            <div class="flex items-center gap-x-2 pt-5">
+              <a href="#">
+                <span class="p-2.5 bg-white rounded-full">icon</span></a
+              >
+              <a href="#">
+                <span class="p-2.5 bg-white rounded-full">icon</span></a
+              >
+              <a href="#">
+                <span class="p-2.5 bg-white rounded-full">icon</span></a
+              >
+              <a href="#">
+                <span class="p-2.5 bg-white rounded-full">icon</span></a
+              >
+            </div>
+          </div>
+          <div class="space-y-2 justify-self-center">
+            <h1 class="font-PoppinsBlack text-2xl">Quick Links</h1>
+            <ul class="ps-6 space-y-3">
+              <li class="text-xl"><a href="#">Services</a></li>
+              <li class="text-xl"><a href="#">Home</a></li>
+              <li class="text-xl"><a href="#">Contact</a></li>
+              <li class="text-xl"><a href="#">About</a></li>
+            </ul>
+          </div>
+          <div class="space-y-2">
+            <h1 class="font-PoppinsBlack text-2xl">Address</h1>
+            <h1>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim,
+              omnis.
+            </h1>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="./src/assets/javascript/app.js"></script>
   </body>
 </html>
